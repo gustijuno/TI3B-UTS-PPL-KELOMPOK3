@@ -148,6 +148,33 @@ context('Cypress Demo-Login', () =>{
         //Rizal Whisnu Wiratama (23)
         //Sortir produk test  
 
+        //Scenario 1
+        //cy.visit('https://www.saucedemo.com/')
+        //cy.get('[data-test=username]').type('standard_user')
+        //cy.get('[data-test=password]').type('secret_sauce')
+        //cy.get('[data-test=login-button]').click()
+        //cy.get('[data-test=product_sort_container]').select('Name (A to Z)')
+
+        //Scenario 2
+        //cy.visit('https://www.saucedemo.com/')
+        //cy.get('[data-test=username]').type('Locked_Out_User')
+        //cy.get('[data-test=password]').type('secret_sauce')
+        //cy.get('[data-test=login-button]').click()
+        //cy.get('[data-test=product_sort_container]').select('Name (Z to A)')
+
+        //Scenario 3
+        //cy.visit('https://www.saucedemo.com/')
+        //cy.get('[data-test=username]').type('problem_user')
+        //cy.get('[data-test=password]').type('secret_sauce')
+        //cy.get('[data-test=login-button]').click()
+        //cy.get('[data-test=product_sort_container]').select('Price (low to high)')
+
+        //Scenario 4\
+        //cy.visit('https://www.saucedemo.com/')
+        //cy.get('[data-test=username]').type('performance_glitch_user')
+        //cy.get('[data-test=password]').type('secret_sauce')
+        //cy.get('[data-test=login-button]').click()
+        //cy.get('[data-test=product_sort_container]').select('Price (high to low)')
 
 
         //Risky Wisnu Oktovianto (22)
