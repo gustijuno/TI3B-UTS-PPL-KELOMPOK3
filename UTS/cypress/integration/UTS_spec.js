@@ -36,6 +36,43 @@ context('Cypress Demo-Login', () =>{
 
         //Ella Amelia Widodo (11)
         //Add card test
+        //skenario 1
+                /*cy.get('[data-test=username]').type('standard_user')
+                cy.get('[data-test=password]').type('secret_sauce')
+                cy.get('[data-test=login-button]').click()
+                cy.get('[data-test=add-to-cart-sauce-labs-backpack]').click()
+                cy.get('.shopping_cart_badge').click()*/
+
+        //skenario 2
+                /*cy.get('[data-test=username]').type('standard_user')
+                cy.get('[data-test=password]').type('secret_sauce')
+                cy.get('[data-test=login-button]').click()
+                cy.get('[data-test=add-to-cart-sauce-labs-backpack]').click()
+                cy.get('.shopping_cart_badge').click()
+                cy.get('[data-test=remove-sauce-labs-backpack]').click()*/
+
+        //Skenario 3
+                /*cy.get('[data-test=username]').type('problem_user')
+                cy.get('[data-test=password]').type('secret_sauce')
+                cy.get('[data-test=login-button]').click()
+                cy.get('[data-test=add-to-cart-sauce-labs-backpack]').click()
+                cy.get('.shopping_cart_badge').click()*/
+
+        //Skenario 4
+                /*cy.get('[data-test=username]').type('problem_user')
+                cy.get('[data-test=password]').type('secret_sauce')
+                cy.get('[data-test=login-button]').click()
+                cy.get('[data-test=add-to-cart-sauce-labs-backpack]').click()
+                cy.get('.shopping_cart_badge').click()
+                cy.get('[data-test=remove-sauce-labs-backpack]').click()*/
+
+        //Skenario 5
+                /*cy.get('[data-test=username]').type('locked_out_user')
+                cy.get('[data-test=password]').type('secret_sauce')
+                cy.get('[data-test=login-button]').click()
+                cy.get('[data-test=add-to-cart-sauce-labs-backpack]').click()
+                cy.get('.shopping_cart_badge').click()
+                cy.get('[data-test=remove-sauce-labs-backpack]').click()*/
      
 
         //Nada Alya Kamila (19)
