@@ -180,5 +180,33 @@ context('Cypress Demo-Login', () =>{
         //Risky Wisnu Oktovianto (22)
         //Detail Product test
 
+         //Scenario 1
+        //cy.visit('https://www.saucedemo.com/')
+        //cy.get('[data-test=username]').type('standard_user')
+        //cy.get('[data-test=password]').type('secret_sauce')
+        //cy.get('[data-test=login-button]').click()
+        //cy.get('#item_0_title_link > .inventory_item_name').click()
+
+        //Scenario 2
+        //cy.visit('https://www.saucedemo.com/')
+        //cy.get('[data-test=username]').type('locked_out_user')
+        //cy.get('[data-test=password]').type('secret_sauce')
+        //cy.get('[data-test=login-button]').click()
+        //cy.get('#item_0_title_link > .inventory_item_name').click()
+
+        //Scenario 3
+        //cy.visit('https://www.saucedemo.com/')
+        //cy.get('[data-test=username]').type('problem_user')
+        //cy.get('[data-test=password]').type('secret_sauce')
+        //cy.get('[data-test=login-button]').click()
+        //cy.get('#item_0_title_link > .inventory_item_name').click()
+
+        //Scenario 4
+        //cy.visit('https://www.saucedemo.com/')
+        //cy.get('[data-test=username]').type('performance_glitch_user')
+        //cy.get('[data-test=password]').type('secret_sauce')
+        //cy.get('[data-test=login-button]').click()
+        //cy.get('#item_1_title_link > .inventory_item_name').click()
+
     })
 })
