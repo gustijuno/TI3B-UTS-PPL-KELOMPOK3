@@ -11,8 +11,8 @@ context('Checkout', () =>{
         cy.get('[data-test=lastName]').type('Shabira')
         cy.get('[data-test=postalCode]').type('000')
         cy.get('[data-test=continue]').click()
-        cy.get('[data-test=finish]').click()
-        cy.get('[data-test=back-to-products]').click()
+        //cy.get('[data-test=finish]').click()
+        //cy.get('[data-test=back-to-products]').click()
 
 
     })
